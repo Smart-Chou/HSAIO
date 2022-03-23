@@ -1,0 +1,28 @@
+{
+    "name": "HSAIO",
+    "version": "1.0.0",
+    "description": "Happy Study - Knowledge, Notes, documents, and more all in one.",
+    "main": "index.js",
+    "repository": "https://hsaio.codenoob.top",
+    "author": "MIFSH <Z18538383923@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "vuepress",
+        "HSAIO",
+        "Happy Study",
+        "Knowledge, Notes, documents, and more all in one."
+    ],
+    "scripts": {
+        "dev": "vuepress dev blog",
+        "clean": "vuepress dev blog --no-cache",
+        "build": "vuepress build blog"
+    },
+    "dependencies": {
+        "vuepress-theme-hope": "^1.28.4",
+        "vuepress": "^1.9.7",
+        "vuepress-plugin-meilisearch": "^0.12.1"
+    },
+    "resolutions": {
+        "vue-router": "3.4.5"
+    }
+}
