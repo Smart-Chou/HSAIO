@@ -3,9 +3,7 @@ author: MIFSH
 time: 2020-10-10
 category:
     - dvd
-    - dvd
 tag:
-  - dd
   - dd
 ---
 
@@ -76,7 +74,7 @@ tag:
 
 ## 调试变量
 
-[debug](../troubleshoot/debug.md) 的环境变量。
+[debug](../../manual/troubleshooting/debug.md) 的环境变量。
 
 ::: tip
 使用 Docker 时，无论此配置如何，它都会记录到 `/dev/stderr`。
@@ -137,4 +135,4 @@ tag:
 | CHEVERETO_MAX_EXECUTION_TIME  | 30   |
 | CHEVERETO_MEMORY_LIMIT        | 512M |
 
-对于基于**非容器**的配置，您需要在 [php.ini 配置](./requirements.md#php-configuration) 中更改这些配置。
+对于基于**非容器**的配置，您需要在 [php.ini 配置](./requirements.md#PHP-配置) 中更改这些配置。

@@ -32,23 +32,23 @@
 
 ### 命令
 
-<CodeGroup>
-<CodeGroupItem title="V3.20+">
+:::: code-group
+::: code-group-item V3.20+
 
 ```sh
 sudo -u www-data php /var/www/html/cli.php -C importing
 ```
 
-</CodeGroupItem>
+:::
 
-<CodeGroupItem title="Older">
+::: code-group-item Older
 
 ```sh
 sudo -u www-data IS_CRON=1 THREAD_ID=1 php importing.php
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 ### Cron 条目
 

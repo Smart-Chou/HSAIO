@@ -111,4 +111,4 @@ networks:
 
 ## 首轮
 
-请参阅[第一步](../../manual/first-steps/README.md) 说明。
+请参阅[第一步](../../manual/first-steps/initial-setup) 说明。

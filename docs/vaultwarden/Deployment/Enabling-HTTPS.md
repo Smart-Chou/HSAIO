@@ -17,7 +17,7 @@ icon: bitwarden
 - (推荐)将 vaultwarden 置于代表 vaultwarden 处理 HTTPS 连接的 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy) 之后。
 - (不推荐)启用 vaultwarden 内置的 HTTPS 功能(通过 [Rocket](https://rocket.rs/) Web 框架)。 Rocket 的 HTTPS 实现相对不成熟和有限。此方法也不支持 [启用WebSocket通知](../Configuration/Enabling-WebSocket-notifications.md)。
 
-有关这些选项的更多详细信息，请参阅 [启用 HTTPS](#启用-HTTPS) 部分。
+有关这些选项的更多详细信息，请参阅 [启用 HTTPS](#启用HTTPS) 部分。
 
 要使 HTTPS 服务器正常工作，它还需要 SSL/TLS 证书，因此您需要决定如何获取它。同样，有几个选项：
 

@@ -62,7 +62,7 @@
 
 ![MultiPHP manager](/screen/cpanel/multiphp-manager.png)
 
-- 从这里您还可以启用 Chevereto 的 [extensions required](requirements.md#php-extensions)。
+- 从这里您还可以启用 Chevereto 的 [extensions required](requirements.md#PHP-扩展)。
 
 ::: danger PHP 扩展
 参考cPanel[PHP扩展和应用程序包](https://docs.cpanel.net/whm/software/php-extensions-and-applications-package/)和WHM[如何在WHM中安装PHP扩展]( https://support.cpanel.net/hc/en-us/articles/360050971633) 文档，如果您的 cPanel 配置缺少 Chevereto 所需的扩展。
@@ -80,8 +80,8 @@ cPanel 使用根`.htaccess` 文件添加规则以覆盖默认的 cPanel PHP 版�
 
 如果您有 PHP 版本控制问题，请确保根 `.htaccess` 文件包含以下内容：
 
-<CodeGroup>
-<CodeGroupItem title="Apache">
+:::: code-group
+::: code-group-item Apache">
 
 ```apacheconf
 <IfModule mime_module>
@@ -89,9 +89,9 @@ cPanel 使用根`.htaccess` 文件添加规则以覆盖默认的 cPanel PHP 版�
 </IfModule>
 ```
 
-</CodeGroupItem>
+:::
 
-<CodeGroupItem title="LiteSpeed">
+::: code-group-item LiteSpeed">
 
 ```apacheconf
 <IfModule mime_module>
@@ -99,8 +99,8 @@ cPanel 使用根`.htaccess` 文件添加规则以覆盖默认的 cPanel PHP 版�
 </IfModule>
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 > 请注意，您系统中的配置可能会有所不同。请与您的服务提供商仔细核对。
 
@@ -124,23 +124,23 @@ php-binary cli-path -C cron >/dev/null 2>&1
 
 ### 命令示例
 
-<CodeGroup>
-<CodeGroupItem title="General">
+:::: code-group
+::: code-group-item General">
 
 ```sh
 /usr/local/bin/ea-php74 /home/chevereto/public_html/cli.php -C cron >/dev/null 2>&1
 ```
 
-</CodeGroupItem>
+:::
 
-<CodeGroupItem title="CloudLinux">
+::: code-group-item CloudLinux">
 
 ```sh
 /opt/alt/php74/usr/bin/php /home/chevereto/public_html/cli.php -C cron >/dev/null 2>&1
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 ## 设置电子邮件
 

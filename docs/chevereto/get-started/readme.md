@@ -52,4 +52,4 @@ Chevereto-Free 是 [Chevereto V3.16.2](https://releases.chevereto.com/3.X/3.16/3
 
 ## 📜 许可证
 
-版权所有 [Rodolfo Berríos Arce](http://rodolfoberrios.com) - [AGPLv3](LICENSE)。
+版权所有 [Rodolfo Berríos Arce](http://rodolfoberrios.com) - [AGPLv3](#)。

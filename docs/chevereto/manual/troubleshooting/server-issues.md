@@ -1,6 +1,6 @@
 # 问题
 
-并非所有 Web 服务器都遵循基本标准，在某些情况下，即使拥有满足 [系统要求](../server/requirements.md) 的服务器，您也会发现无法让 Chevereto 工作的问题。
+并非所有 Web 服务器都遵循基本标准，在某些情况下，即使拥有满足 [系统要求](../../setup/server/requirements.md) 的服务器，您也会发现无法让 Chevereto 工作的问题。
 
 ## 网络服务器
 

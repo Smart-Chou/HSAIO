@@ -4,7 +4,7 @@
 
 ## Facebook
 
-切换 [Facebook 登录](../features/integrations/social-login.md#facebook-login) 的使用。
+切换 [Facebook 登录](../features/integrations/social-login.md#Facebook登入) 的使用。
 
 |键值 |效果|
 | -------- | -------------------------------------------- |
@@ -29,7 +29,7 @@
 
 ## 推特
 
-切换 [Twitter 登录](../features/integrations/social-login.md#twitter-login) 的使用。
+切换 [Twitter 登录](../features/integrations/social-login.md#推特登录) 的使用。
 
 |键值 |效果|
 | -------- | --------------------------------------------- |
@@ -62,7 +62,7 @@
 
 ## 谷歌
 
-切换 [Google 登录](../features/integrations/social-login.md#google-login) 的使用。
+切换 [Google 登录](../features/integrations/social-login.md#谷歌登录) 的使用。
 
 |键值 |效果|
 | -------- | ------------------------- |
@@ -87,7 +87,7 @@
 
 ## VK
 
-切换 [VK 登录](../features/integrations/social-login.md#vk-login) 的使用。
+切换 [VK 登录](../features/integrations/social-login.md#vk登录) 的使用。
 
 |键值 |效果|
 | -------- | --------------------- |

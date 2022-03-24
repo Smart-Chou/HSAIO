@@ -132,7 +132,7 @@ npm run dist
 ## 更多部署信息
 
 - [配置你的反向代理](Proxy-examples.md)
-- [通过 systemd 设置自动启动](Setup-as-a-systemd-service.md)
+- [通过 systemd 设置自动启动](../Configuration/Setup-as-a-systemd-service.md)
 
 ## 如何为 sqlite 后端重新创建数据库模式(对于开发人员)
 

@@ -12,7 +12,7 @@ icon: bitwarden
 
 传统上，Vaultwarden 仅限于驻留在子域的根，例如`https://vaultwarden.example.com`。
 
-此限制源于后端和 Web 密码管理，它们并非旨在容纳备用基础目录(请参阅 [bitwarden/server#277](/bitwarden/server/issues/277))。移动/桌面应用程序和浏览器扩展实际上没有问题，使用带有路径的基本 URL。
+此限制源于后端和 Web 密码管理，它们并非旨在容纳备用基础目录(请参阅 [bitwarden/server#277](https://github.com/bitwarden/server/issues/277))。移动/桌面应用程序和浏览器扩展实际上没有问题，使用带有路径的基本 URL。
 
 在 vaultwarden 中，随着 [PR#868](https://github.com/dani-garcia/vaultwarden/pull/868)(后端)和 [PR#11](https://github.com/dani-garcia/bw_web_builds/pull/11)(网络密码管理)，您可以在备用基本目录中配置功能齐全的实例。
 

@@ -13,7 +13,7 @@ icon: bitwarden
 ::: danger 警告
 此方法仅用于测试和开发。绝大多数用户不应使用此方法，因为它需要在您的每台设备上加载证书，这既容易出错又需要将来维护。相反，将精力集中在通过 [Let's Encrypt](https://letsencrypt.org/getting-started/) 获取真实证书上。
 
-如果您的 vaultwarden 实例不在公共 Internet 上，这甚至可以工作([使用 Let's Encrypt 证书运行私有 Vaultwarden 实例](../Deployment/Running-a-private-vaultwarden-instance-with-Let's-Encrypt-certs))。
+如果您的 vaultwarden 实例不在公共 Internet 上，这甚至可以工作([使用 Let's Encrypt 证书运行私有 Vaultwarden 实例](../Deployment/Running-a-private-vaultwarden-instance-with-Let's-Encrypt-certs.md))。
 :::
 
 ::: warning

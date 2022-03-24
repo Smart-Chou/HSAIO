@@ -84,7 +84,7 @@ $settings['image_formats_available'] = ['PNG', 'GIF', 'BMP', 'JPG'];
 
 ## 配置图片库
 
-检查 [CHEVERETO_IMAGE_LIBRARY](environment.md#image-handling-variables) 以更改 Chevereto 使用的默认图像库。
+检查 [CHEVERETO_IMAGE_LIBRARY](../system/environment.md#图像处理变量) 以更改 Chevereto 使用的默认图像库。
 
 ### ImageMagick
 

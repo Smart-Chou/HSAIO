@@ -61,8 +61,8 @@ sudo mysql -uroot -ppassword -e "CREATE DATABASE chevereto; \
 
 * 从您的 **Chevereto 项目文件夹** 运行以下命令：
 
-<CodeGroup>
-<CodeGroupItem title="Debian">
+:::: code-group
+::: code-group-item Debian
 
 ```sh
 LICENSE=YOUR_V3_LICENSE_KEY &&
@@ -76,8 +76,8 @@ curl -f -SOJL \
 && chown www-data: . -R
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 * 打开您的目标网站 URL 并按照说明进行操作
 

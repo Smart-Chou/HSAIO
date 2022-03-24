@@ -3,7 +3,7 @@
 `/dashboard/settings/email`
 
 ::: tip
-在 [tools](./tools.md#send-test-email) 测试电子邮件发送结果。
+在 [tools](./tools.md#发送测试邮件) 测试电子邮件发送结果。
 :::
 
 ## 来自名字

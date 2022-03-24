@@ -34,28 +34,28 @@
 
 下面的命令使用 `sudo -u www-data` 以 `www-data` 用户权限运行命令。 PHP 二进制文件位于 `php`，而 Chevereto CLI 位于 `/var/www/html/cli.php`。传递给 Chevereto 的命令参数是`-C cron`。
 
-<CodeGroup>
-<CodeGroupItem title="V3.20+">
+:::: code-group
+::: code-group-item V3.20+
 
 ```sh
 sudo -u www-data php /var/www/html/cli.php -C cron
 ```
 
-</CodeGroupItem>
+:::
 
-<CodeGroupItem title="Older">
+::: code-group-item Older
 
 ```sh
 sudo -u www-data IS_CRON=1 php /var/www/html/cron.php
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 #### Docker 命令
 
-<CodeGroup>
-<CodeGroupItem title="V3.20+">
+:::: code-group
+::: code-group-item V3.20+
 
 ```sh
 docker exec -it \
@@ -63,9 +63,9 @@ docker exec -it \
     chevereto-container php /var/www/html/cli.php -C cron
 ```
 
-</CodeGroupItem>
+:::
 
-<CodeGroupItem title="Older">
+::: code-group-item Older
 
 ```sh
 docker exec -it \
@@ -74,8 +74,8 @@ docker exec -it \
     chevereto-container php /var/www/html/cron.php
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 ### Cron.d 文件
 

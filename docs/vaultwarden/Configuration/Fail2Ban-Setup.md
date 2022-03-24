@@ -14,18 +14,19 @@ icon: bitwarden
 
 ## 目录
 
+- [目录](#目录)
 - [先决条件](#先决条件)
 - [安装](#安装)
-- [Debian / Ubuntu / 树莓派操作系统](#debian-ubuntu-raspberry-pi-os)
-- [Fedora / Centos](#fedora-centos)
-- [Synology DSM](#synology-dsm)
+  - [Debian / Ubuntu / Raspberry Pi OS](#debian--ubuntu--raspberry-pi-os)
+  - [Fedora / Centos](#fedora--centos)
+  - [Synology DSM](#synology-dsm)
 - [网络密码管理的设置](#网络密码管理的设置)
-- [过滤器](#过滤器)
-- [Jail](#Jail)
+  - [筛选](#筛选)
+  - [Jail](#jail)
 - [设置管理页面](#设置管理页面)
-- [筛选](#筛选)
-- [Jail](#jail)
-- [测试Fail2Ban](#测试-fail2ban)
+  - [筛选](#筛选-1)
+  - [Jail](#jail-1)
+- [测试 Fail2Ban](#测试-fail2ban)
 - [SELinux 问题](#selinux-问题)
 
 ## 先决条件
@@ -150,7 +151,11 @@ ignoreregex =
 ```
 
 **提示：** 如果您在 `fail2ban.log` 中收到以下错误消息 (CentOS 7, Fail2Ban v0.9.7)  
+
+```
 `fail2ban.filter         [5291]: ERROR   No 'host' group in '^.*Username or password is incorrect\. Try again\. IP: <ADDR>\. Username:.*$'`  
+```
+
 请在 `vaultwarden.local` 中使用 `<HOST>` 而不是 `<ADDR>`
 
 **提示：**如果您在 vaultwarden.log 中看到 127.0.0.1 作为登录失败的 IP 地址，那么您可能使用的是反向代理并且 fail2ban 将无法正常工作：

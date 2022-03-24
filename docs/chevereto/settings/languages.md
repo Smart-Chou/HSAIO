@@ -3,7 +3,7 @@
 `/dashboard/settings/languages`
 
 ::: tip
-如果您需要添加新语言或只是更改一些语言字符串，请查看我们的 [语言定制](../customization/language.md) 指南。
+如果您需要添加新语言或只是更改一些语言字符串，请查看我们的 [语言定制](../features/customization/language.md) 指南。
 :::
 
 ## 默认语言

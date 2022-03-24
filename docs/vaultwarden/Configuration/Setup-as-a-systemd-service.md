@@ -202,7 +202,7 @@ ROCKET_PORT=XXXX
 WEBSOCKET_ENABLED=true # enable websocket
 ```
 
-来源：[#1607](/dani-garcia/vaultwarden/issues/1607)
+来源：[#1607](https://github.com/dani-garcia/vaultwarden/issues/1607)
 
 ## 更多信息
 

@@ -31,8 +31,8 @@
 
 * 从您的 **Chevereto 项目文件夹** 运行以下命令：
 
-<CodeGroup>
-<CodeGroupItem title="Debian">
+:::: code-group
+::: code-group-item Debian
 
 ```sh
 LICENSE=YOUR_V3_LICENSE_KEY &&
@@ -47,8 +47,8 @@ curl -f -SOJL \
 && php cli.php -C install
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 ## HTTP 更新(旧版)
 

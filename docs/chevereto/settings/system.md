@@ -104,7 +104,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 ## 调试级别
 
-显示调试级别。该值取自 [设置文件](../setup/settings-file.md)。
+显示调试级别。该值取自 [设置文件](../setup/server/settings-file.md)。
 
 |类型 |示例 |
 | ------- | -------------------- |

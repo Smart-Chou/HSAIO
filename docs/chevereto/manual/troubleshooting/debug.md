@@ -75,23 +75,23 @@ $settings['error_log'] = 'log_device';
 
 可以通过直接文件访问或相应地运行命令来轻松访问日志。
 
-<CodeGroup>
-<CodeGroupItem title="Shell">
+:::: code-group
+::: code-group-item Shell
 
 ```sh
 tail -f /var/log/apache2/error.log | sed 's/\\n/\n/g'
 ```
 
-</CodeGroupItem>
+:::
 
-<CodeGroupItem title="Docker">
+::: code-group-item Docker
 
 ```sh
 docker logs -f container-name | sed 's/\\n/\n/g'
 ```
 
-</CodeGroupItem>
-</CodeGroup>
+:::
+::::
 
 ## 错误报告
 
