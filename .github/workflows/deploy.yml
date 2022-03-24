@@ -23,11 +23,11 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-node-modules-
 
-            - name: Install Blog
+            - name: Install docs
               if: steps.node-modules.outputs.cache-hit != 'true'
               run: yarn install
 
-            - name: Build Blog
+            - name: Build docs
               run: yarn run build
 
             - name: Deploy
