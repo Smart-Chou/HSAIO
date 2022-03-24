@@ -13,14 +13,21 @@
         "Knowledge, Notes, documents, and more all in one."
     ],
     "scripts": {
-        "dev": "vuepress dev blog",
-        "clean": "vuepress dev blog --no-cache",
-        "build": "vuepress build blog"
+        "dev": "vuepress dev docs",
+        "clean": "vuepress dev docs --no-cache",
+        "build": "vuepress build docs",
+        "check": "vuepress check-md docs"
     },
     "dependencies": {
-        "vuepress-theme-hope": "^1.28.4",
         "vuepress": "^1.9.7",
-        "vuepress-plugin-meilisearch": "^0.12.1"
+        "vuepress-plugin-meilisearch": "^0.12.1",
+        "vuepress-theme-hope": "^1.28.4",
+        "d3": "^5.15.0",
+        "lodash": "^4.17.15"
+    },
+    "devDependencies": {
+        "vuepress-plugin-check-md": "^0.0.2",
+        "vuepress-plugin-permalink-pinyin": "^1.0.0"
     },
     "resolutions": {
         "vue-router": "3.4.5"

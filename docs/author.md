@@ -12,7 +12,7 @@ tagline: 编程菜鸟的自我修养
 
 现在的个人博客，读者和作者都越来越少，坚持写自己的东西，是一种总结更是一种锻炼，如果别人能懂得我的转述，我才是真的会了
 
-感谢你的关注，你可点击[时光机](/timeline/)来了解我在做什么，也可以点击[最新文章](/latest.md)，查看更多的信息 点击查看本站的[分类](/category/)结构更为清晰！
+感谢你的关注，你可点击[时光机](/timeline/)来了解我在做什么，查看更多的信息 点击查看本站的[分类](/category/)结构更为清晰！
 :::
 
 ## 我的bilibili
@@ -44,3 +44,5 @@ tagline: 编程菜鸟的自我修养
 
 - QQ：[3518439599](https://qm.qq.com/cgi-bin/qm/qr?k=hH6gqBpGrQ80a0kBI-69N6OWXMIJ7825&noverify=0)
 - 邮箱：<ChouCong912@gmial.com>
+
+<CatalogGraph />

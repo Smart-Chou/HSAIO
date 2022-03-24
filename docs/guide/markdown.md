@@ -729,7 +729,7 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 ![Alt text][id]
 ```
 
-「id」是图片参考的名称，图片参考的定义方式则和链接参考一样: [id]:
+「id」是图片参考的名称，图片参考的定义方式则和链接参考一样: `[id]`:
 
 ```md
 url/to/image "Optional title attribute"
@@ -839,4 +839,4 @@ Example: `:smile:` :smile:
 
 ## Markdown增强
 
-关于**MarkDown**还有一些高级技巧，快来看呀 :smile: [点这里](/basic/markdown-enhance.md)
+关于**MarkDown**还有一些高级技巧，快来看呀 :smile: [点这里](./markdown-enhance.md)

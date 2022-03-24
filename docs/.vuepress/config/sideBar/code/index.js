@@ -1,42 +1,41 @@
-const { sidebarConfig } = require("vuepress-theme-hope");
+const { sidebarConfig } = require('vuepress-theme-hope');
 
-module.exports = 
-  sidebarConfig([
-    "",
+module.exports = sidebarConfig([
+    '',
     {
-      title: "Python",
-      icon: "python",
-      collapsable: false,
-      children: ["python/"],
-    },
-    {
-        title: "前后端知识",
-        icon: "biancheng1",
+        title: 'Python',
+        icon: 'python',
         collapsable: false,
-        children: ["front-back"], 
+        children: ['python/'],
     },
     {
-        title: "Java学习路线",
-        icon: "java",
+        title: '前后端知识',
+        icon: 'biancheng1',
         collapsable: false,
-        children: ["java-study"], 
+        children: ['front-back'],
     },
     {
-        title: "SpringBoot实战项目",
-        icon: "springboot",
+        title: 'Java学习路线',
+        icon: 'java',
         collapsable: false,
-        children: ["loop"], 
+        children: ['java-study'],
     },
     {
-        title: "聊聊PHP",
-        icon: "PHP",
+        title: 'SpringBoot实战项目',
+        icon: 'springboot',
         collapsable: false,
-        children: ["php-history"], 
+        children: ['loop'],
     },
     {
-        title: "项目是怎么变复杂的",
-        icon: "project1",
+        title: '聊聊PHP',
+        icon: 'PHP',
         collapsable: false,
-        children: ["project-step"], 
+        children: ['php-history'],
     },
-  ]);
+    {
+        title: '项目是怎么变复杂的',
+        icon: 'project1',
+        collapsable: false,
+        children: ['project-step'],
+    },
+]);

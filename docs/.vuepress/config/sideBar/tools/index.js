@@ -1,36 +1,35 @@
-const { sidebarConfig } = require("vuepress-theme-hope");
+const { sidebarConfig } = require('vuepress-theme-hope');
 
-module.exports = 
-  sidebarConfig([
-    "",
+module.exports = sidebarConfig([
+    '',
     {
-      title: "创作工具",
-      icon: "NovelDesign",
-      collapsable: false,
-      children: ["creat/"],
-    },
-    {
-        title: "油猴脚本自动刷课",
-        icon: "tampermonkey",
+        title: '创作工具',
+        icon: 'NovelDesign',
         collapsable: false,
-        children: ["tampermonkey-refreshes-lesson"], 
+        children: ['creat/'],
     },
     {
-        title: "Typora直传图片文件方案",
-        icon: "md1",
+        title: '油猴脚本自动刷课',
+        icon: 'tampermonkey',
         collapsable: false,
-        children: ["typoraImg-tool"], 
+        children: ['tampermonkey-refreshes-lesson'],
     },
     {
-        title: "Eclipse Theia初体验",
-        icon: "eclipse-theia-aws-websoft9",
+        title: 'Typora直传图片文件方案',
+        icon: 'md1',
         collapsable: false,
-        children: ["theia"], 
+        children: ['typoraImg-tool'],
     },
     {
-        title: "Vue Devtools的安装",
-        icon: "Vue",
+        title: 'Eclipse Theia初体验',
+        icon: 'eclipse-theia-aws-websoft9',
         collapsable: false,
-        children: ["vuedev-tool"], 
+        children: ['theia'],
     },
-  ]);
+    {
+        title: 'Vue Devtools的安装',
+        icon: 'Vue',
+        collapsable: false,
+        children: ['vuedev-tool'],
+    },
+]);

@@ -1,6 +1,6 @@
 <template>
     <transition name="fade">
-        <div v-if="visible" class="v2-notice-wrapper">
+        <div v-if="visible" class="notice-wrapper">
             <div class="title">
                 <span>📢 {{ locale.title }}</span>
                 <svg class="icon-close" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" @click="close">
@@ -8,10 +8,10 @@
                 </svg>
             </div>
             <p class="content" v-html="locale.text" />
-            <!-- <hr />
+            <hr />
             <div class="footer">
-                <button class="action" @click="v2docs" v-html="locale.button" />
-            </div> -->
+                <button class="action" @click="friends" v-html="locale.button" />
+            </div>
         </div>
     </transition>
 </template>
@@ -30,7 +30,7 @@ export default Vue.extend({
         visible: false,
     }),
     mounted() {
-        const hasBeenClosed = sessionStorage.getItem('v2-notice');
+        const hasBeenClosed = sessionStorage.getItem('notice');
         this.visible = hasBeenClosed !== 'true';
     },
     computed: {
@@ -41,10 +41,10 @@ export default Vue.extend({
     methods: {
         close() {
             this.visible = false;
-            sessionStorage.setItem('v2-notice', 'true');
+            sessionStorage.setItem('notice', 'true');
         },
-        v2docs() {
-            window.open(`https://codenoob.top/friends${this.$localePath}`);
+        friends() {
+            window.open(`https://codenoob.top/friends.html`);
             this.close();
         },
     },
@@ -52,7 +52,7 @@ export default Vue.extend({
 </script>
 
 <style lang="stylus" scoped>
-.v2-notice-wrapper
+.notice-wrapper
     position fixed
     top 80px
     right 20px

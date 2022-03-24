@@ -1,3 +1,0 @@
-# 🔍 Troubleshoot
-
-`🚧 Work in progress`

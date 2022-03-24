@@ -1,22 +1,22 @@
 <template>
-  <div>
-    <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tz&skin=mango" frameborder="0" width="100%" height="32" allowtransparency="true"></iframe>
-    <div class="clock-box"><FlipClock></FlipClock></div>
-  </div>
+    <div>
+        <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tz&skin=mango" frameborder="0" width="100%" height="32" allowtransparency="true"></iframe>
+        <div class="clock-box"><FlipClock></FlipClock></div>
+    </div>
 </template>
 
 <script>
-  import FlipClock from './flipClock'
-  export default {
+import FlipClock from './flipClock';
+export default {
     components: {
-      FlipClock
+        FlipClock,
     },
-    name: "Weather"
-  }
+    name: 'Weather',
+};
 </script>
 
 <style scoped>
 .clock-box {
-  margin: 10px 0 20px 0;
+    margin: 10px 0 20px 0;
 }
 </style>

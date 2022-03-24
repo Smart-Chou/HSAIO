@@ -1,17 +1,13 @@
-const { sidebarConfig } = require("vuepress-theme-hope");
+const { sidebarConfig } = require('vuepress-theme-hope');
 
-module.exports = 
-  sidebarConfig({
-    "/projects/vaultwarden/": require("./projects/vaultwarden"),
+module.exports = sidebarConfig({
+    '/vaultwarden/': require('./vaultwarden'),
 
-    "/tools/creat/": require("./tools/creat"),
-    "/tools/": require("./tools"),
-    
-    "/code/python/": require("./code/python"),
-    "/code/": require("./code"),
+    '/tools/creat/': require('./tools/creat'),
+    '/tools/': require('./tools'),
 
-    "/guide/": require("./guide"),
-    });
+    '/code/python/': require('./code/python'),
+    '/code/': require('./code'),
 
-
-    
+    '/guide/': require('./guide'),
+});
