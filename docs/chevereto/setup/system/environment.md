@@ -1,12 +1,3 @@
----
-author: MIFSH
-time: 2020-10-10
-category:
-    - dvd
-tag:
-  - dd
----
-
 # 环境
 
 这些是可用于调整 Chevereto 配置的系统级设置。
