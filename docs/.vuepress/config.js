@@ -1,5 +1,5 @@
 const { config } = require('vuepress-theme-hope');
-const themeConfig = require('./config/themeConfig');
+const themeConfig = require('./themeConfig');
 
 module.exports = config({
     title: 'HSAIO',
@@ -19,20 +19,20 @@ module.exports = config({
     permalink: '/:regular',
     themeConfig,
     plugins: [
-        [require('./catalog-graph/lib/index.js')],
+        [require('./catalog-graph/index.js')],
         [
             'vuepress-plugin-meilisearch',
             {
                 hostUrl: 'https://tv.zcily.life',
                 apiKey: 'opOU6e6Xa6e95c296386d50d0234b615391764fd386ce5a62dd5da00f6bc862cb206c438',
                 indexUid: 'hsaio',
-                placeholder: '搜点啥呢？', // Default: ""
-                maxSuggestions: 6, // Default: 5
-                cropLength: 50, // Default: 30
+                placeholder: '搜点啥呢？',
+                maxSuggestions: 6,
+                cropLength: 50,
             },
         ],
         ['vuepress-plugin-check-md'],
-        ['vuepress-plugin-permalink-pinyin']
+        ['vuepress-plugin-permalink-pinyin'],
     ],
     globalUIComponents: ['V2Notice'],
 });

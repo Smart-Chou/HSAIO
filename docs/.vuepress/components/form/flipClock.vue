@@ -99,9 +99,9 @@ export default {
 .FlipClock {
     text-align: center;
 }
-.FlipClock .M-Flipper {
+/* .FlipClock .M-Flipper {
     margin: 0 3px;
-}
+} */
 .FlipClock em {
     display: inline-block;
     line-height: 102px;

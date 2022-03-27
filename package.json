@@ -16,7 +16,7 @@
         "dev": "vuepress dev docs",
         "clean": "vuepress dev docs --no-cache",
         "build": "vuepress build docs",
-        "check": "vuepress check-md docs"
+        "check-md": "vuepress check-md docs"
     },
     "dependencies": {
         "vuepress": "^1.9.7",

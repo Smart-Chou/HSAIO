@@ -2,7 +2,19 @@
     "index_uid": "hsaio",
     "start_urls": ["https://hsaio.codenoob.top/"],
     "sitemap_urls": ["https://hsaio.codenoob.top/sitemap.xml"],
-    "stop_urls": ["https://hsaio.codenoob.top/rss.xml", "https://hsaio.codenoob.top/tag", "https://hsaio.codenoob.top/category", "https://hsaio.codenoob.top/404.html"],
+    "stop_urls": [ 
+        "https://hsaio.codenoob.top/tag", 
+        "https://hsaio.codenoob.top/category", 
+        "https://hsaio.codenoob.top/404.html",
+        "https://hsaio.codenoob.top/timeline/",
+        "https://hsaio.codenoob.top/article",
+        "https://hsaio.codenoob.top/star",
+        "https://hsaio.codenoob.top/slide",
+        "https://hsaio.codenoob.top/encrypt",
+        "https://hsaio.codenoob.top/author.html",
+        "https://hsaio.codenoob.top/message.html",
+        "https://hsaio.codenoob.top/latest.html"
+    ],
     "selectors": {
         "lvl0": {
             "selector": ".sidebar-heading.open span",

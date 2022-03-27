@@ -3,7 +3,7 @@ title: 初接触指南
 description: 初接触指南
 # 当前文章是否为原创
 original: false
-date: 2020-06-16
+time: 2020-06-16
 category: Start
 tag:
   - VuePress

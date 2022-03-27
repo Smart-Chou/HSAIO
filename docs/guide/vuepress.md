@@ -3,7 +3,7 @@ title: VuePress
 description: VuePress
 # 当前文章是否为原创
 original: false
-date: 2020-06-23
+time: 2020-06-23
 category: Start
 tag:
   - VuePress

@@ -3,7 +3,7 @@ title: 基础认知
 icon: brainsmartbulb
 # 当前文章是否为原创
 original: true
-date: 2020-06-20
+time: 2020-06-20
 category: Start
 tag:
   - MarkDown

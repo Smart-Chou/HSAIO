@@ -3,7 +3,7 @@ title: Markdown介绍
 description: Markdown介绍
 #当前文章是否为原创
 original: false
-date: 2020-06-26
+time: 2020-06-26
 category: Start
 tag:
   - MarkDown

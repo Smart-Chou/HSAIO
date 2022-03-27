@@ -26,37 +26,41 @@ h1
 
 // h2 style 
 @media screen and (min-width: 768px)
-  .theme-default-content:not(.custom) h2
-    display: inline-flex
-    align-items: center
-    font-weight: 700
-    background: #2998d1
-    color: #fff
-    padding: 4px 10px 4px !important
-    border-top-right-radius: 3px
-    border-top-left-radius: 3px
-    margin-top: 1.5rem !important
-    margin-right: 3px
-    font-size: 20px
+  body.theme-light
+    .theme-default-content:not(.custom) h2
+      display: inline-flex
+      align-items: center
+      font-weight: 700
+      background: #2998d1
+      color: #fff
+      padding: 4px 10px 4px !important
+      border-top-right-radius: 3px
+      border-top-left-radius: 3px
+      margin-top: 1.5rem !important
+      margin-right: 3px
 
-  .theme-default-content:not(.custom) h2:after
-    content: ''
-    display: inline-block
-    vertical-align: bottom
-    border-bottom: 36px solid #efebe9
-    border-right: 20px solid transparent
-    position: relative
-    left: 32px
-    top: 1px
+    .theme-default-content:not(.custom) h2:after
+      content: ''
+      display: inline-block
+      vertical-align: bottom
+      border-bottom: 36px solid #efebe9
+      border-right: 20px solid transparent
+      position: relative
+      left: 32px
+      top: 1px
 
-  .theme-default-content:not(.custom) h2:before
-    content: ''
-    border-bottom: 2px solid #2998d1
-    width: calc(100% - 3.5rem)
-    display: block
-    height: 10px
-    position: absolute
-    margin-top: 32px
+    .theme-default-content:not(.custom) h2:before
+      content: ''
+      border-bottom: 2px solid #2998d1
+      width: calc(100% - 3.5rem)
+      display: block
+      height: 10px
+      position: absolute
+      margin-top: 32px
+
+    .theme-default-content:not(.custom) > h1:first-child + h2
+      padding: 4px 10px 4px !important
+      margin-top: 1.5rem !important
 
 .navbar .logo
   margin-right: 0.4rem !important
@@ -171,7 +175,8 @@ strong
   color: #3eaf7c
   font-weight: bold
 
-// Dark theme
+
+// Searchbox Dark theme
 body.theme-dark
   .meilisearch-autocomplete
     .dsb-dropdown-menu [class^=dsb-dataset-], .docs-searchbar-suggestion

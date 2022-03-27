@@ -44,7 +44,6 @@ export default {
 
 .home .tech-stack h1
     text-align: center
-    color: #4e6e8e
 
 .home .tech-stack .tech-logo
     text-align: center
