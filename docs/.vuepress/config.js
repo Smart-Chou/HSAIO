@@ -34,5 +34,5 @@ module.exports = config({
         ['vuepress-plugin-check-md'],
         ['vuepress-plugin-permalink-pinyin'],
     ],
-    globalUIComponents: ['V2Notice'],
+    //globalUIComponents: ['V2Notice'],
 });

@@ -2,3 +2,5 @@ dist/
 node_modules/
 yarn-error.log
 notin/
+LIST.txt
+/index.md
