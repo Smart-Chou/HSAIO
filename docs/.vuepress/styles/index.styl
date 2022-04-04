@@ -237,7 +237,12 @@ body.theme-dark
     .meilisearch-search-wrapper
       .docs-searchbar-suggestion--subcategory-column
         background: transparent !important
-
+  
+  .meilisearch-autocomplete .docs-searchbar-suggestion .docs-searchbar-suggestion--subcategory-column
+    min-width: 160px !important
+    text-align: right !important
+  .meilisearch-autocomplete .docs-searchbar-suggestion .docs-searchbar-suggestion--content
+    max-width: 120px
 
 //Searchbox style Mobile
 @media (max-width: $MQNarrow)

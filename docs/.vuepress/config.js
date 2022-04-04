@@ -10,6 +10,7 @@ module.exports = config({
         ['meta', { name: 'baidu-site-verification', content: 'code-E87rwPtGLL' }], //百度验证
         ['meta', { name: 'google-site-verification', content: 'i9llgSGLwQ5xvWGIdJRONZfTeCpJZxhjTPnZxfljuGo' }], //Google验证
         ['meta', { name: 'msvalidate.01', content: 'B9A0C43AD3B1BD529335A2616F235E46' }], //Bing验证
+        ['script', { async:'', defer:'', 'data-website-id':'7390e8af-c660-4848-9752-bb1ad0652468',src:'https://tongji.zcily.tk/umami.js'}],//umami统计
     ],
     locales: {
         '/': {
